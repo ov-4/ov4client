@@ -1,0 +1,22 @@
+v1	named	intermediary
+FIELD	dev/ov4client/addon/mixins/MixinClientPlayerInteractionManager	Lnet/minecraft/client/MinecraftClient;	client	field_3712
+FIELD	dev/ov4client/addon/mixins/MixinClientPlayerInteractionManager	F	blockBreakingSoundCooldown	field_3713
+FIELD	dev/ov4client/addon/mixins/MixinClientPlayerInteractionManager	F	currentBreakingProgress	field_3715
+FIELD	dev/ov4client/addon/mixins/MixinClientPlayerInteractionManager	Lnet/minecraft/item/ItemStack;	selectedStack	field_3718
+FIELD	dev/ov4client/addon/mixins/MixinClientPlayerInteractionManager	Lnet/minecraft/util/math/BlockPos;	currentBreakingPos	field_3714
+FIELD	dev/ov4client/addon/mixins/MixinClientPlayerInteractionManager	Z	breakingBlock	field_3717
+FIELD	dev/ov4client/addon/mixins/MixinClientPlayerEntity	Lnet/minecraft/client/network/ClientPlayNetworkHandler;	networkHandler	field_3944
+METHOD	dev/ov4client/addon/mixins/MixinMesh	(Lnet/minecraft/client/util/math/MatrixStack;)V	beginRender	beginRender
+METHOD	dev/ov4client/addon/mixins/MixinClientPlayerInteractionManager	(Lnet/minecraft/client/world/ClientWorld;Lnet/minecraft/client/network/SequencedPacketCreator;)V	sendSequencedPacket	method_41931
+METHOD	dev/ov4client/addon/mixins/MixinClientPlayerInteractionManager	(Lnet/minecraft/util/math/BlockPos;)Z	breakBlock	method_2899
+METHOD	dev/ov4client/addon/mixins/MixinClientPlayerInteractionManager	()I	getBlockBreakingProgress	method_51888
+METHOD	dev/ov4client/addon/mixins/MixinEntity	(Lnet/minecraft/entity/EntityPose;)Z	isInPose	method_41328
+METHOD	dev/ov4client/addon/mixins/MixinEntity	()Lnet/minecraft/text/Text;	getName	method_5477
+METHOD	dev/ov4client/addon/mixins/MixinEntity	()Lnet/minecraft/world/World;	getWorld	method_37908
+METHOD	dev/ov4client/addon/mixins/MixinEntity	(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResult;	interact	method_5688
+METHOD	dev/ov4client/addon/mixins/MixinEntity	(DZLnet/minecraft/block/BlockState;Lnet/minecraft/util/math/BlockPos;)V	fall	method_5623
+METHOD	dev/ov4client/addon/mixins/MixinEntity	(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;ZZLnet/minecraft/util/math/Vec3d;)Z	stepOnBlock	method_51701
+METHOD	dev/ov4client/addon/mixins/MixinEntity	()F	getStepHeight	method_49476
+METHOD	dev/ov4client/addon/mixins/MixinEntity	()Z	isOnGround	method_24828
+METHOD	dev/ov4client/addon/mixins/MixinEntity	()Lnet/minecraft/util/math/Box;	getBoundingBox	method_5829
+METHOD	dev/ov4client/addon/mixins/MixinWidgetScreen	(Lnet/minecraft/client/gui/DrawContext;F)V	onRenderBefore	onRenderBefore
