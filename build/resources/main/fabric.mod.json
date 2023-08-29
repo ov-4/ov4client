@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "ov4-client",
-  "version": "`2.0.1+7c7724f`",
+  "version": "2.0.1+e4a8248",
   "name": "ov4 Client",
   "description": "An addon based on the latest version of the meteor-client.",
   "authors": [
