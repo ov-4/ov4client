@@ -1,23 +1,37 @@
-# ov4client - MeteorClient Addon
+# ov4 Client - an addon of Meteor Client
+### Use it to against Ching Chong
+### Free configs in [this discord server](https://discord.gg/yNJkbWX8Kj)
 
-![ov4client Logo](https://github.com/Finov4Ke/SolarScribe/blob/master/src/main/resources/assets/solar-scribe/icons/icon.png)
+## Usage
 
-ov4client is an addon for MeteorClient, a popular Minecraft utility mod that allows you to enhance your gaming experience through various features and optimizations. SolarScribe specifically focuses on providing additional functionalities and enhancements to MeteorClient.
+### Building
+- Clone this repository
+- Run `./gradlew clean build`
 
-## Features
+### Installation
+- Install Minecraft 1.20.1 with Fabric and Meteor Client. To install Fabric, follow the [guide](https://fabricmc.net/). To install Meteor Client, follow the [guide](https://meteorclient.com/faq/installation) on the wiki.
+- Download the lasted released and move the mod to ./minecraft/mods.
+- Run the game and enjoy it.
 
-- **Feature 1:** The AutoCrystal is fast and accurate. The Offhand works flawlessly, even on strict anti-cheats. There's plenty of other features too, so you always have the edge over your opponent.
+## Contributions
+We will review and help with all reasonable pull requests as long as the guidelines below are met.
 
-- **Feature 2:** SolarScribe isn't just for PVP. It's also great for everything else. With Baritone integration, you can automate building and travelling, and there's modules for almost everything.
+- The license header must be applied to all java source code files.
+- IDE or system-related files should be added to the `.gitignore`, never committed in pull requests.
+- In general, check existing code to make sure your code matches relatively close to the code already in the project.
+- Favour readability over compactness.
+- If you need help, check out the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html) for a reference.
 
-- **Feature 3:** You can't go wrong with SolarScribe's visuals. you can make your game look like anything.
+## Bugs and Suggestions
+Bug reports and suggestions should be made in this repo's [issue tracker](https://github.com/XxHausemasterxX/ov4client/issues) using the templates provided.  
+Please provide as much information as you can to best help us understand your issue and give a better chance of it being resolved.
 
-## Installation
+## Licensing
+This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html). 
 
-1. Make sure you have MeteorClient installed and set up. If not, refer to the official MeteorClient documentation for instructions.
+If you use **ANY** code from the source:
+- You must disclose the source code of your modified work and the source code you took from this project. This means you are not allowed to use code from this project (even partially) in a closed-source and/or obfuscated application.
+- You must state clearly and obviously to all end users that you are using code from this project.
+- Your application must also be licensed under the same license.
 
-2. Download the latest release of ov4client use ./gradlew clean build.
-
-3. Move the downloaded JAR file into the `addons` folder of your MeteorClient installation.
-
-4. Launch Minecraft with MeteorClient, and SolarScribe will automatically be loaded as an addon.
+*If you have any other questions, ask in our [Discord](https://discord.gg/yNJkbWX8Kj) server.*
