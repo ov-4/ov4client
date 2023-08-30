@@ -1,4 +1,5 @@
 # ov4 Client - an addon of Meteor Client
+## Will be archived soon. [Visit out new project - Snow Addon](https://github.com/XxHausemasterxX/SnowAddon)
 ### Use it to against Ching Chong
 ### Free configs in [this discord server](https://discord.gg/yNJkbWX8Kj)
 
