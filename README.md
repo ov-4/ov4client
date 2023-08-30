@@ -1,5 +1,5 @@
 # ov4 Client - an addon of Meteor Client
-## Will be archived soon. [Visit out new project - Snow Addon](https://github.com/XxHausemasterxX/SnowAddon)
+## Will be archived soon. [Visit our new project - Snow Addon](https://github.com/XxHausemasterxX/SnowAddon)
 ### Use it to against Ching Chong
 ### Free configs in [this discord server](https://discord.gg/yNJkbWX8Kj)
 
@@ -11,13 +11,13 @@
 
 ### Installation
 - Install Minecraft 1.20.1 with Fabric and Meteor Client. To install Fabric, follow the [guide](https://fabricmc.net/). To install Meteor Client, follow the [guide](https://meteorclient.com/faq/installation) on the wiki.
-- Download the lasted released and move the mod to ./minecraft/mods.
+- Download the latest released and move the mod to ./minecraft/mods.
 - Run the game and enjoy it.
 
 ## Contributions
 We will review and help with all reasonable pull requests as long as the guidelines below are met.
 
-- The license header must be applied to all java source code files.
+- The license header must be applied to all Java source code files.
 - IDE or system-related files should be added to the `.gitignore`, never committed in pull requests.
 - In general, check existing code to make sure your code matches relatively close to the code already in the project.
 - Favour readability over compactness.
@@ -25,7 +25,7 @@ We will review and help with all reasonable pull requests as long as the guideli
 
 ## Bugs and Suggestions
 Bug reports and suggestions should be made in this repo's [issue tracker](https://github.com/XxHausemasterxX/ov4client/issues) using the templates provided.  
-Please provide as much information as you can to best help us understand your issue and give a better chance of it being resolved.
+Please provide as much information as you can to best help us understand your issue and give us a better chance of it being resolved.
 
 ## Licensing
 This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html). 
